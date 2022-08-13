@@ -1280,4 +1280,9 @@ class Main:
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-MINHAZ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
-	 
+	 else:
+
+				continue
+
+		self.loop +=1
+		
